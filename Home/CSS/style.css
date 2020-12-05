@@ -51,9 +51,15 @@
   }
   
   img{
-    width: 40%;
-     
+    max-width: 40%;
+         
   } 
+ IMG.displayed {
+  max-width: 20%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
   
   body {
     background:#ddd;
