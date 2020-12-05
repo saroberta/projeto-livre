@@ -1,0 +1,153 @@
+  body{ 
+    text-align:center;
+    font-family:Open Sans,sans-serif;
+    color: black;
+    margin: 0px 0px 30px 0px;
+  }
+  
+  h1{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    color:rebeccapurple;
+  }
+  
+  h2{
+    color:#7d57be;
+    font-size: 10px;
+  }
+  
+  .titulo-verde{
+    color: blue;
+    font-size: 22px;
+    font-style: italic;
+  }
+  
+  .titulo-vermelho{
+    color: brown;
+    font-size: 22px;
+    font-style: italic;
+  }
+  
+  .titulo-amarelo{
+    color: gray;
+    font-size: 22px;
+    font-style: italic;
+    }
+  
+  section{
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  section section{
+    width: 100%;
+  }
+  
+  p{
+    font-size: 15px;
+    line-height: 1,0;
+    text-align: justify;
+  }
+  
+  img{
+    width: 40%;
+     
+  } 
+  
+  body {
+    background:#ddd;
+    margin: 0px 0px 30px 0px;
+    }
+
+  ul.nav { 
+    background-color: pink; 
+    margin:0; 
+    padding:0;
+  }
+    
+  ul.nav li {
+    list-style:none;	
+    display:inline;
+    }
+
+  ul.nav li a {
+    border: 1px solid white;
+    width:6.0em;
+    font-weight: 0.68em  Verdana, Arial, Helvetica, 
+    sans-serif;
+    background: pink;
+    color: green;
+    text-align:center;
+    padding:0  0.2em 0.2em  0;
+    text-decoration: none;
+    /* max-width: 60%; */
+  }
+
+    ul.nav a:hover{
+    background:#999;
+    color:#fff;
+    border-color:#00f;
+    }
+
+  /* ul{
+    list-style-type: none;
+    margin: 0;
+    line-height: 2;
+    padding-left: 0;
+    }
+  
+  li{
+  display: inline;
+  } */
+
+  /* a{
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+  }
+  
+  .principal{
+    background-color: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .principal a{
+    color: #FFF;
+    text-decoration: underline;
+    Font-weight: normal;
+    text-align: center;
+    display: inline
+  } */
+  
+  .principal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+  }
+  
+  button{
+   background: #41f341;
+   border: 1px solid transparent;
+   padding: 2px 20px;
+   border-radius: 3px;
+  }
+  
+  
+
+
+
+
+/* .banner{
+    background-image: url(../img/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;  
+    height: 560px;    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
