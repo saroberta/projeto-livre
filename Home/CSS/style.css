@@ -1,7 +1,8 @@
   body{ 
     text-align:center;
     font-family:Open Sans,sans-serif;
-    color: black;
+    background-color: mediumslateblue;
+    color: white;
     margin: 0px 0px 30px 0px;
   }
   
@@ -24,17 +25,23 @@
   }
   
   .titulo-vermelho{
-    color: brown;
+    color: sandybrown;
     font-size: 22px;
     font-style: italic;
   }
   
   .titulo-amarelo{
-    color: gray;
+    color:sandybrown;
     font-size: 22px;
     font-style: italic;
     }
   
+  .titulo-roxo{
+  color: sandybrown;
+  font-size: 22px;
+  font-style: italic;
+  }  
+
   section{
     width: 60%;
     margin: 0 auto;
@@ -51,31 +58,34 @@
   }
   
   img{
-    max-width: 40%;
-         
+    max-width: 50%;
+             
   } 
 
  IMG.displayed {
-  max-width: 20%; 
+  max-width: 18%; 
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-image:auto;
  }
   
-  body {
-    background:#ddd;
+  /* body {
+    background;;
     margin: 0px 0px 30px 0px;
-    }
+    } */
 
   ul.nav { 
     background-color: pink; 
-    margin:0; 
-    padding:0;
-  }
+    margin:0 auto; 
+    padding:0  0.2em 0.2em  0;
+    width: 80%;
+  }    
     
   ul.nav li {
     list-style:none;	
-    display:inline;
+    display: inline;
+        
     }
 
   ul.nav li a {
@@ -83,12 +93,11 @@
     width:6.0em;
     font-weight: 0.68em  Verdana, Arial, Helvetica, 
     sans-serif;
-    
-    color: green;
-    text-align:center;
+    color: purple;
+    text-align: center;
     padding:0  0.2em 0.2em  0;
     text-decoration: none;
-    /* max-width: 60%; */
+   
   }
 
     ul.nav a:hover{
@@ -101,7 +110,21 @@
     width: 40%;
     margin: 0;
   }
-    .rodape-prin
+  
+  h4 {
+    text-align: center;
+    color: violet;
+
+  }
+  #outras{
+  text-align: left;
+  }
+  h5{
+    color: blue;
+  }
+  }
+
+  .rodape-prin
     {
         background-color: pink;       
         clear: both;
@@ -114,7 +137,6 @@
     .icones-sociais li
     {
         display: inline-block;
-        float: left;
         width: 120px;
         height: 40%;
         align-items: center;
@@ -132,7 +154,24 @@
     line-height: 2.5;
     margin: 0;
   }
-  
+
+  .container {
+    margin: auto;
+    max-width: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+      
+    padding-right: 35px;
+    background-color: lightblue;
+    color: #fff;
+    font-family: arial;
+    font-size: 15px;
+  } 
+  .container ul {
+    list-style-type: none;
+  }
+
   button{
    background: #41f341;
    border: 1px solid transparent;
