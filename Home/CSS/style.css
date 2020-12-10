@@ -10,8 +10,8 @@
     font-size: 30px;
     font-weight: 200;
     text-align: center;
-    color:rebeccapurple;
-  }
+    color: orange;
+    }
   
   h2{
     color:#7d57be;
@@ -53,7 +53,7 @@
   
   p{
     font-size: 15px;
-    line-height: 1,0;
+    line-height: 1,5;
     text-align: justify;
   }
   
@@ -70,13 +70,8 @@
   border-image:auto;
  }
   
-  /* body {
-    background;;
-    margin: 0px 0px 30px 0px;
-    } */
-
   ul.nav { 
-    background-color: pink; 
+   
     margin:0 auto; 
     padding:0  0.2em 0.2em  0;
     width: 80%;
@@ -86,56 +81,67 @@
     list-style:none;	
     display: inline;
         
-    }
+   }
+
+  .mais li a{
+    text-align: right;
+    color: blue;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+  }
 
   ul.nav li a {
-    border: 1px solid white;
+    border: 1px solid purple;
     width:6.0em;
     font-weight: 0.68em  Verdana, Arial, Helvetica, 
     sans-serif;
-    color: purple;
+    color: bisque;
     text-align: center;
     padding:0  0.2em 0.2em  0;
     text-decoration: none;
-   
   }
 
     ul.nav a:hover{
-    background:#999;
-    color:#fff;
+    background: palevioletred;
+    color: beige;
     border-color:#00f;
     }
 
   .principal logo {
     width: 40%;
     margin: 0;
+    color: purple;
   }
   
   h4 {
     text-align: center;
-    color: violet;
-
+    color: black;
   }
+
   #outras{
   text-align: left;
   }
-  h5{
-    color: blue;
-  }
-  }
 
-  .rodape-prin
-    {
+  h5{
+    color: black;
+  }
+  
+  .rodape-prin{
         background-color: pink;       
         clear: both;
         padding: 28px;         
         color: rgb(250,255,250);
         font-size: 15px;
         font-family: "arial", sans-serif;
+          
     }
-    
-    .icones-sociais li
-    {
+
+.minhas p{
+  text-align: center;
+  color:  black;
+}
+    .icones-sociais li {
         display: inline-block;
         width: 120px;
         height: 40%;
@@ -143,11 +149,12 @@
     }
 
   .principal{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    background: pink;
+    background: b;
     align-items: center;
+    margin-top: none;
   }
   .principal li{
     display: inline-block;
@@ -168,12 +175,13 @@
     font-family: arial;
     font-size: 15px;
   } 
-  .container ul {
+
+  .container ul li{
     list-style-type: none;
   }
 
   button{
-   background: #41f341;
+   background: white;
    border: 1px solid transparent;
    padding: 2px 20px;
    border-radius: 3px;
