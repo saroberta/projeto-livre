@@ -180,23 +180,68 @@
     list-style-type: none;
   }
 
-  button{
+  .news__title {
+    color: white;
+    top: -130px;
+  }
+  .news__label {
+    display: block;
+    color: #ffffff;
+  }
+  
+  .news__input {
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin: auto;
+    height: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: yellow;
+  }
+  
+  .mensagem {
+    color: goldenrod;
+  }
+  
+  /* .news__button {
+    background-color: #ecddf3;
+    color: #000000;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    width: auto;
+    position: absolute;
+    bottom: -50px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -65px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+  } */
+  
+  .news__button:hover {
+    background-color: #053c55;
+    width: auto;
+    padding: 2px 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+
+    
+  }
+
+  /* button{
    background: white;
    border: 1px solid transparent;
    padding: 2px 20px;
    border-radius: 3px;
-  }
+  } */
   
   
-/* .banner{
-    background-image: url(../img/flower.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;  
-    background-position: center;  
-    height: 560px;    
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
+
 
